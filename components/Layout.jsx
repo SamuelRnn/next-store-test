@@ -1,7 +1,4 @@
-import { Inter } from "@next/font/google";
 import Head from 'next/head'
-
-const inter = Inter({ subsets: ["latin"] });
 
 const Layout = ({ children, title }) => {
   return (
@@ -13,7 +10,7 @@ const Layout = ({ children, title }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <main className={inter.className}>
+      <main>
         {children}
       </main>
     </>
